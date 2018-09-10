@@ -3,5 +3,7 @@
 
 def parrot(phrase=nil)
   puts phrase
+  return phrase unless phrase.nil?
+  puts phrase
   return phrase
 end 
