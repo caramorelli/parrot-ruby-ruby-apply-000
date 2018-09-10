@@ -4,5 +4,5 @@
 def parrot(phrase='Squawk!')
   # return 'Squawk!' if phrase.nil?
   # puts phrase
-  puts phrase
+  return phrase
 end 
